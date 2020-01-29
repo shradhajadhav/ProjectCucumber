@@ -23,7 +23,4 @@ public class PageObjects {
 	@FindBy(name = "Login")
 	public WebElement Login;
 
-	@FindBy(name = "products")
-	public WebElement search;
-
 }

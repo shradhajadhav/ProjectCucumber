@@ -23,7 +23,7 @@ public class LoginTest {
 
 		driver.get("http://10.232.237.143:443/TestMeApp/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		po = new PageObjects(driver);
 	}
 
@@ -52,6 +52,8 @@ public class LoginTest {
 		}
 		driver.findElement(By.xpath("//*[@id=\"header\"]/div[1]/div/div/div[2]/div/ul/a[2]")).click();
 	}
+	
+	
 	@When("^user enters \"([^\"]*)\" and \"([^\"]*)\"$")
 	public void enterunamepwd123(String uname,String pwd) {
 	

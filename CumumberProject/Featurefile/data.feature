@@ -21,4 +21,4 @@ Scenario Outline: test login
 Examples:
 	|uname|pwd|
 	|lalitha|Password123|
-	|ABC|XYZ|
+	|shradha|shot|
